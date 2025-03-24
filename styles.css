@@ -1,0 +1,123 @@
+body{
+    background-image: url(https://9to5mac.com/wp-content/uploads/sites/6/2023/08/Mac-malware-can-easily-bypass-Apples-Background-Task-Manager.jpg?quality=82&strip=all&w=1024);
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.container{
+    width: 360px;
+    padding: 33px;
+    text-align: center;
+    margin-left: 33%;
+    margin-top: 5px;
+    background-color: #ffffff3a;
+    border-radius: 5px;
+}
+
+input{
+    width: 270px;
+    padding: 8px;
+    border: 2px solid rgb(36, 235, 76);
+    outline: none;
+}
+
+button{
+    width: 60px;
+    height: 36px;
+    background-color: rgba(8, 245, 59, 0.658);
+    color: white;
+    border-radius: 2px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;      
+}
+
+.text ul{
+    position: relative;
+    background-color: #fbff00bb;
+    color: black;
+    font-size: 19px;
+    text-align: left;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.text ul i{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+
+
+
+
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 25px;
+    }
+
+    input {
+        max-width: 75%;
+    }
+
+    button {
+        width: 55px;
+        height: 34px;
+    }
+
+    .text ul {
+        font-size: 17px;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 95%;
+        padding: 15px;
+    }
+
+    input {
+        max-width: 70%;
+    }
+
+    button {
+        width: 45px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .text ul {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        max-width: 90%;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    input {
+        max-width: 70%;
+    }
+
+    button {
+        width: 50px;
+        height: 32px;
+        font-size: 14px;
+    }
+
+    .text ul {
+        font-size: 16px;
+    }
+}
